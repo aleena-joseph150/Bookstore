@@ -25,17 +25,17 @@ Screenshots
 7.User-registration page
 ![image](https://user-images.githubusercontent.com/122635809/214796007-e7bae950-c277-40e8-b3ad-d8394acf8950.png)
 
-9.User-home page
+8.User-home page
 ![image](https://user-images.githubusercontent.com/122635809/214795845-0b2ce234-f628-4d4c-8ecb-5cd312ec86a8.png)
 
-10.User-viewbooks
+9.User-viewbooks
 ![image](https://user-images.githubusercontent.com/122635809/214795946-613596b3-c974-4112-9620-2d24fc9bfd88.png)
 
-11.Cart page
+10.Cart page
 ![image](https://user-images.githubusercontent.com/122635809/214796207-4dd1942d-ae86-4fb1-985d-360728c9a35f.png)
 
-12.Payment Page
+11.Payment Page
 ![image](https://user-images.githubusercontent.com/122635809/214796356-238ea5c0-df2c-4b74-9230-2203d446df02.png)
 
-13.Final interface
+12.Final interface
 ![image](https://user-images.githubusercontent.com/122635809/214796441-e347c3df-1afe-496d-96fd-c86e41a812bc.png)
