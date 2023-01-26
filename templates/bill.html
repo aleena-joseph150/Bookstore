@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include 'user_home_header.html' %}
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    #aa{
+        margin-top:50px;
+        }
+      #y{
+        border: 1px solid;
+        color: black;
+        border-color: black;
+        width: 400px;
+        margin-left:450px;
+        margin-top:20px;
+    }
+  </style>
+    <script src="https://kit.fontawesome.com/9703ec55c8.js" crossorigin="anonymous"></script>
+</head>
+<body background="{% static 'book10 (3).jpg' %}">
+<div class="container" id="aa">
+<h1 align="center">ADD YOUR PAYMENT</h1>
+<form method="post" enctype="multipart/form-data">{% csrf_token %}
+
+
+    <center>Total bill : <h1>{{total}}</h1></center>
+
+<!--    <tr>-->
+<!--      <td><label>Amount</label></td>-->
+<!--      <td><input type="number" name="quantity" > </td>-->
+<!--    </tr>-->
+
+
+<!--       <button type="button" id="y" class="btn-success" >GOOGLEPAY</button>-->
+<!--        <button type="button" id="y" class="btn-success" >PAYTM</button>-->
+<!--        <button type="button" id="y" class="btn-success" >CASH ON DELIVERY</button>-->
+    <a href="" class=" btn btn-success" id="y"><i class="fa-brands fa-google-pay">GOOGLE PAY</i></a>
+    <a href="" class=" btn btn-success" id="y">PAYTM</a>
+    <a href="http://127.0.0.1:8000/bookapp/pay/" class=" btn btn-success" id="y">CASH ON DELIVERY</a>
+
+
+</form>
+
+  </div>
+</body>
+
+</html>
+
+

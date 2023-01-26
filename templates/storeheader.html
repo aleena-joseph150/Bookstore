@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <style>
+        #a{
+
+          background-color:white ;
+
+        }
+         #c{
+          color: black;
+          margin-left: 10px;
+          text-decoration: none;
+
+        }
+
+        #d{
+          margin-left: 100px;
+          height: 30px;
+          width: 300px;
+          margin-top: 5px;
+        }
+        #e{
+          margin-top: 15px;
+        }
+
+        #x{
+          background-color: aqua;
+          color: black;
+          border: 1px;
+          border-style: dashed;
+          height: 30px;
+          border-color: blanchedalmond;
+          margin-top: 5px;
+          padding-top: 5px;
+          margin-left: 30px;
+          margin-bottom: 5px;
+        }
+        #k{
+          margin-top: 20px;
+        }
+        #r{
+          text-decoration: none;
+          background-color: azure;
+          color: rgb(165, 14, 14);
+          font-size:xx-large;
+
+        }
+        #c:hover{
+          color: rgb(20, 177, 112);
+        }
+        #r:hover{
+          color: rgb(25, 146, 146);
+        }
+        #m{
+        background-color: yellow;
+        border: 1px solid;
+        border-color: black;
+        width: 285px;
+        height: 40px;
+        text-decoration: none;
+        color: black;
+        font-size: large;
+        text-align: center;
+
+       }
+       #m:hover{
+        height:50px ;
+        width: 300px;
+        color: rgb(168, 57, 57);
+       }
+       #n{
+        border: 1px solid;
+        border-color: black;
+       }
+
+       #q{
+        background-color: rgb(226, 218, 231);
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 40px;
+        padding-left: 40%;
+      }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9703ec55c8.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div id="a">
+  <nav class="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="{% static 'assets/images/logo.png' %}" alt="" width="300" height="75">
+      </a>
+      <form class="d-flex">
+
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="d">
+        <button class="btn " type="submit"><i class="fa-solid fa-magnifying-glass" ></i></button>
+        <!-- <button class="btn " type="submit" id="y"></button> -->
+        <a class="nav-link" href="http://127.0.0.1:8000/bookapp/storelogin/" id="c">Sign in</a>
+        <a class="nav-link" href="http://127.0.0.1:8000/bookapp/register/" id="c">New User</a>
+
+      </form>
+
+    </div>
+  </nav>
+</div>
+
+
+
+
+
+
+    <div class="container" id='k'>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="{% static 'carousel2.jpg' %}" class="d-block w-100" alt="..." height="500px" >
+        </div>
+        <div class="carousel-item">
+          <img src="{% static 'carousel1.jpg' %}" class="d-block w-100" alt="..." height="500px" >
+        </div>
+        <div class="carousel-item">
+          <img src="{% static 'carousel3.jpg' %}" class="d-block w-100" alt="..." height="500px">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+
+
+
+
+            <div id="q">
+              <div class="container-fluid">
+                <p>
+                  <a href="">2 Lakh+ Unique Products</a>
+                  <a href="">Privacy Notice </a>
+                  <a href="">Interest-Based Ads</a></p>
+                <p><i class="fa-regular fa-copyright"></i>1996-2022,First Impression.com,Inc.and its affiliates</p>
+              </div>
+              </div>
+</body>
+</html>

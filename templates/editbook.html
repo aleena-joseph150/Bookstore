@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include 'header.html' %}
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    #aa{
+        margin-top:50px;
+        }
+  </style>
+</head>
+<body background="{% static 'book10 (3).jpg' %}">
+<div class="container" id="aa">
+<h1 align="center">EDIT BOOK DETAILS</h1>
+<form method="post" enctype="multipart/form-data" align="center">{% csrf_token %}
+<table align="center" id="ab">
+    <tr>
+      <td><label>Book Name</label></td>
+      <td><input name="bname" value="{{prod.bname}}"> </td>
+    </tr>
+    <tr>
+      <td><label>Book Price</label></td>
+      <td><input name="bprice" value="{{prod.bprice}}"> </td>
+    </tr>
+    <tr>
+      <td><label>Description</label></td>
+      <td><input name="des" value="{{prod.des}}"> </td>
+    </tr>
+    <tr>
+      <td><label>Book Image</label></td>
+      {% if prod.image %}
+         <img src="/static/books/{{a}}" width="200px" height="200px">
+      {% endif %}
+      <td><input type="file" name="image" > </td>
+    </tr>
+
+    <tr>
+      <td colspan="2">
+        <button type="submit" >Update</button>
+      </td>
+    </tr>
+</table>
+</form>
+
+  </div>
+</body>
+
+</html>
+
+

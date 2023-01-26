@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+  <style>
+         #q{
+        background-color: rgb(226, 218, 231);
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 40px;
+        padding-left: 40%;
+      }
+
+    </style>
+
+</head>
+
+{% include 'user_home_header.html' %}
+<body>
+<div class="container" id='k'>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="{% static 'carousel3.jpg' %}" class="d-block w-100" alt="..." height="500px" >
+        </div>
+        <div class="carousel-item">
+          <img src="{% static 'carousel2.jpg' %}" class="d-block w-100" alt="..." height="500px" >
+        </div>
+        <div class="carousel-item">
+          <img src="{% static 'carousel1.jpg' %}" class="d-block w-100" alt="..." height="500px">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+
+
+
+
+            <div id="q">
+              <div class="container-fluid">
+                <p>
+                  <a href="">2 Lakh+ Unique Products</a>
+                  <a href="">Privacy Notice </a>
+                  <a href="">Interest-Based Ads</a></p>
+                <p><i class="fa-regular fa-copyright"></i>1996-2022,First Impression.com,Inc.and its affiliates</p>
+              </div>
+              </div>
+</body>
+</html>

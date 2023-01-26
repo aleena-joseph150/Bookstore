@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include 'user_home_header.html' %}
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    #aa{
+        margin-top:50px;
+        }
+  </style>
+</head>
+<body background="{% static 'book10 (3).jpg' %}">
+<div class="container" id="aa">
+<h1 align="center">BUY YOUR BOOKS</h1>
+<form method="post" enctype="multipart/form-data">{% csrf_token %}
+<table align="center" id="ab">
+    <tr>
+      <td><label>Book Name</label></td>
+      <td><input name="bname" value="{{a.bookname}}"> </td>
+    </tr>
+    <tr>
+      <td><label>Book Price</label></td>
+      <td><input name="bprice" value="{{a.bookprice}}"> </td>
+    </tr>
+    <tr>
+      <td><label>Quantity</label></td>
+      <td><input type="number" name="quantity"> </td>
+    </tr>
+<!--    <tr>-->
+<!--      <td><label>Amount</label></td>-->
+<!--      <td><input type="number" name="quantity" > </td>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--      <td><label>Book Image</label></td>-->
+<!--      {% if prod.image %}-->
+<!--         <img src="/static/books/{{a}}" width="200px" height="200px">-->
+<!--      {% endif %}-->
+<!--        <td><input type="file" name="image" > </td>-->
+<!--    </tr>-->
+    <tr>
+<td colspan="2"><input type="submit" ></td>
+    </tr>
+
+</table>
+
+</form>
+
+  </div>
+</body>
+
+</html>
+
+
