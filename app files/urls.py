@@ -1,0 +1,30 @@
+from django.urls import path
+from .views import *
+urlpatterns=[
+    path('index/',index),
+    path('subpage/',subpage),
+    path('register/',storeregister),
+    path('storelogin/',storelogin),
+    path('userreg/',userregister),
+    path('userlog/',ulogin),
+    path('userhome/',userhome),
+    path('storehome/',storehome),
+    path('storeheader/',storeheader),
+    path('userheader/',userheader),
+    path('header/',header),
+    path('footer/',footer),
+    path('addbook/',book),
+    path('bookdisplay/',bookdisplay),
+    path('editbook/<int:id>',editbook),
+    path('deletebook/<int:id>', deletebook),
+    path('viewbook/',viewbook),
+    path('addtocart/<int:id>',addtocart),
+    path('cartdisplay/',cartdisplay),
+    path('addcontact/',addcontact),
+    path('contactdisplay/',contactdisplay),
+    path('editprofile/<int:id>',editprofile),
+    path('removecart/<int:id>',removecart),
+    path('buynow/<int:id>',buynow),
+    path('bill/',bill),
+    path('pay/',payment)
+]
