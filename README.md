@@ -1,6 +1,8 @@
 # Bookstore
-Online web application developed using Python-Django
-ONLINE BOOK STORE Online Bookstore is a Web Application where the customer can buy the books online.It is a computerised bookstore developed in reference to the existing online books buying sites.This application is developed using html,css and Javascript as front-end and Python as back-end.Django is used as the framework and the internal database of django(db.sqlite3) is used to store data. There are two modules.The Store and The Customer. Both has to register and sign in to ge the access to the website. Through A Web Browser The Customer Can Search A Book, View All The Books ; Later Can Add To The Shopping Cart And Finally They Can Purchase The Books. The store can add new books,edit the book details and also delete the books.
+
+Online web application developed using Python-Django.
+
+Online Bookstore is a Web Application where the customer can buy the books online.It is a computerised bookstore developed in reference to the existing online books selling sites.This application is developed using html,css and Javascript as front-end and Python as back-end.Django is used as the Framework and the Internal database of django(db.sqlite3) is used to store data.The customer has to register and sign in to get the access to the website. Through A Web Browser The Customer Can Search A Book, View All The Books,Later Can Add To The Shopping Cart And Finally They Can Purchase The Books. The store can add new books,edit the book details and also delete the books.
 
 Screenshots
 
